@@ -1,0 +1,589 @@
+body{
+    font-family: sans-serif;
+    background-color: #333232;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.navh{
+    color: yellow;
+    font-size: 32px;
+    position: relative;
+    left: 200px;
+
+}
+span{
+    color: white;
+    margin-left: 8px;
+}
+nav ul{
+  position: relative;
+  right: 100px;
+
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: lightgrey;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: grey;
+    transition: .3s;
+}
+.social1{
+    color: lightgrey;
+    text-decoration:none;
+    font-weight: bolder;
+    margin-right: 30px;
+}
+.social2{
+  color: lightgrey;
+  text-decoration:none;
+  font-weight: bolder;
+  margin-right: 30px;
+}
+.social3{
+  color: lightgrey;
+  text-decoration:none;
+  font-weight: bolder;
+  margin-right: 30px;
+}
+.social:hover{
+    color: grey;
+    transition:.3s;
+}
+.Main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Mainh1{
+    position: relative;
+    left: 200px;
+    z-index: 2;
+  }
+  .left {
+    flex: 1;
+    position: relative;
+    left: 40px;
+  }
+  
+  .right {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    bottom: 300px;
+    right: 150px;
+  }
+  .Mainh2{
+    z-index: 2;
+    position: relative;
+    right: 540px;
+    bottom: 120px;
+  }
+  
+  .heading-part-1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #888;
+  }
+  
+  .heading-part-2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    z-index: 2;
+    
+  }
+  .h2part1 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #888;
+    margin-left: 60px;
+  }
+  
+  .h2part2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-left: 62px;
+    
+  }
+  .h2part3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-left: 62px;
+    
+    
+  }
+  .h2part4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-left: 62px;
+    
+  }
+  .yellow-line {
+    height: 2px;
+    background-color: yellow;
+    border: none;
+    width: 120px;
+    display: flex;
+    justify-content: left;
+    margin-left: 210px;
+
+  }
+  .show{
+    z-index: 2;
+    color:yellow;
+    text-decoration:none;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    right: 727px;
+    bottom: 120px;
+  }
+  .show:hover{
+    color: grey;
+    transition:.3s;
+  }
+  .informdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(165, 163, 163);
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    position: relative;
+    bottom: 750px;
+    left: 250px;
+    font-size: 12px;
+  }
+  .Image{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 550px;
+    bottom: 590px;
+    width: 400px;
+    z-index: 3;
+  }
+  .social21{
+    color: yellow;
+    text-decoration:none;
+    font-weight: bolder;
+    margin-right: 53px;
+    position: relative;
+    right: 772px;
+    top: -1px;
+  }
+  .circle-background{
+      background-color: #2e2b2b;
+      border-radius: 50%;
+      width: 400px;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1;
+      position: relative;
+      left: 525px;
+      bottom: 225px;
+
+    }
+    .soco{
+      z-index: 2;
+    position: relative;
+    right: 180px;
+    bottom: 75px;
+    }
+    .Need{
+      background-color: #444343;
+      position: relative;
+      bottom: 625px;
+    }
+    .Need h1{
+      position: relative;
+      left: 395px;
+    }
+    .mistake{
+      position: relative;
+      top: 60px;
+      left: 150px;
+    }
+    .needp{
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      position: relative;
+      left: 400px;
+
+    }
+    .needp span{
+      color:gray;
+    }
+    .A1{
+      color: Yellow;
+      position: relative;
+      left: 410px;
+      top: 20px;
+
+    }
+    .A2{
+      color:white;
+      position: relative;
+      left: 410px;
+      top: 20px;
+    }
+    .A3{
+      color: Yellow;
+      position: relative;
+      left: 550px;
+      bottom: 65px;
+    }
+    .A4{
+      color: white;
+      position: relative;
+      left: 550px;
+      bottom: 65px;
+    }
+    .A5{
+      color: Yellow;
+      position: relative;
+      left: 410px;
+      bottom: 50px;
+    }
+    .A6{
+      color: white;
+      position: relative;
+      left: 410px;
+      bottom: 50px;
+    }
+    .A7{
+      color: Yellow;
+      position: relative;
+      left: 550px;
+      bottom: 135px;
+    }
+    .A8{
+        color: white;
+        position: relative;
+        left: 550px;
+        bottom: 135px;
+    }
+    .first{
+      width: 125px;
+      position: relative;
+      left: 850px;
+      bottom: 500px;
+    }
+    .firstpic{
+      position: relative;
+      bottom: 50px;
+    }
+    .firstpic h2{
+      color: white;
+      position: relative;
+      left: 990px;
+      bottom: 610px;
+      font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    }
+    .firstpic p{
+      color: rgb(119, 116, 116);
+      position: relative;
+      left: 990px;
+      bottom: 620px;
+      font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    }
+    .showfirst{
+      color:yellow;
+      text-decoration:none;
+      font-weight: bold;
+      font-size: 25px;
+      position: relative;
+      left: 1325px;
+      bottom: 670px;
+    }
+    .gray-line{
+        height: 2px;
+        background-color: rgb(94, 94, 92);
+        border: none;
+        width: 500px;
+        display: flex;
+        position: relative;
+        left: 850px;
+        bottom: 620px;
+    }
+    .second{
+      width: 125px;
+      position: relative;
+      left: 850px;
+      bottom: 500px;
+    }
+    .secondpic{
+      position: relative;
+      bottom: 140px;
+    }
+    .secondpic h2{
+      color: white;
+      position: relative;
+      left: 990px;
+      bottom: 610px;
+      font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    }
+    .secondpic p{
+      color: rgb(119, 116, 116);
+      position: relative;
+      left: 990px;
+      bottom: 620px;
+      font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    }
+    .showsecond{
+      color:yellow;
+      text-decoration:none;
+      font-weight: bold;
+      font-size: 25px;
+      position: relative;
+      left: 1325px;
+      bottom: 670px;
+    }
+    .gray-line-second{
+        height: 2px;
+        background-color: rgb(94, 94, 92);
+        border: none;
+        width: 500px;
+        display: flex;
+        position: relative;
+        left: 850px;
+        bottom: 620px;
+    }
+    .third{
+      width: 125px;
+      position: relative;
+      left: 850px;
+      bottom: 500px;
+    }
+    .thirdpic{
+      position: relative;
+      bottom: 220px;
+    }
+    .thirdpic h2{
+      color: white;
+      position: relative;
+      left: 990px;
+      bottom: 610px;
+      font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    }
+    .thirdpic p{
+      color: rgb(119, 116, 116);
+      position: relative;
+      left: 990px;
+      bottom: 620px;
+      font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    }
+    .showthird{
+      color:yellow;
+      text-decoration:none;
+      font-weight: bold;
+      font-size: 25px;
+      position: relative;
+      left: 1325px;
+      bottom: 670px;
+    }
+    .gray-line-third{
+        height: 2px;
+        background-color: rgb(94, 94, 92);
+        border: none;
+        width: 500px;
+        display: flex;
+        position: relative;
+        left: 850px;
+        bottom: 620px;
+    }
+    .firstbox{
+      height: 300px;
+      width: 300px;
+      background-color: rgb(88, 85, 85);
+      box-shadow: #131212;
+      position: relative;
+      bottom: 1300px;
+      left: 400px;
+      box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+      z-index: 1;
+    }
+    .secondbox{
+      height: 300px;
+      width: 300px;
+      background-color: rgb(88, 85, 85);
+      box-shadow: #131212;
+      position: relative;
+      bottom: 1600px;
+      left: 750px;
+      box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+      z-index: 1;
+    }.thirdbox{
+      height: 300px;
+      width: 300px;
+      background-color: rgb(88, 85, 85);
+      position: relative;
+      bottom: 1900px;
+      left: 1100px;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+        z-index: 1;
+      
+    }
+    .firstboxh2{
+      z-index: 2;
+      color: white;
+      position: relative;
+      bottom: 2150px;
+      left: 420px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .firstboxp{
+        z-index: 2;
+        color: rgb(80, 78, 78);
+        position: relative;
+        bottom: 2150px;
+        left: 415px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      
+    }
+    .secondboxh2{
+      z-index: 2;
+      color: white;
+      position: relative;
+      bottom: 2275px;
+      left: 770px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .secondboxp{
+        z-index: 2;
+        color: rgb(80, 78, 78);
+        position: relative;
+        bottom: 2275px;
+        left: 765px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      
+    }
+    .thirdboxh2{
+      z-index: 2;
+      color: white;
+      position: relative;
+      bottom: 2400px;
+      left: 1120px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .thirdboxp{
+        z-index: 2;
+        color: rgb(80, 78, 78);
+        position: relative;
+        bottom: 2400px;
+        left: 1120px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      
+    }
+    .Socialmediabar{
+      height: 100px;
+      width: 200px;
+      background-color: rgb(255, 255, 255);
+    }
+    .gray-line-2{
+      height: 75px;
+        background-color: rgb(94, 94, 92);
+        border: none;
+        width: 950px;
+        display: flex;
+        position: relative;
+        left: 400px;
+        bottom: 3280px;
+        z-index: 3;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+    }
+    .googlelogo{
+      width: 135px;
+      height: 42px;
+      background-color: rgb(58, 58, 57);
+      position: relative;
+      bottom: 3340px;
+      left: 450px;
+      z-index: 4;
+      box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+    }
+    .googlelogo img{
+      width: 90px;
+      position: relative;
+      top: 6px;
+      left: 20px;
+    }
+    .metalogo{
+      width: 135px;
+      height: 42px;
+      background-color: rgb(58, 58, 57);
+      position: relative;
+      bottom: 3382px;
+      left: 685px;
+      z-index: 4;
+      box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+    }
+    .metalogo img{
+      width: 90px;
+      position: relative;
+      bottom: 25px;
+      left: 20px;
+    }
+    .linkedlogo{
+      width: 135px;
+      height: 42px;
+      background-color: rgb(58, 58, 57);
+      position: relative;
+      bottom: 3424px;
+      left: 920px;
+      z-index: 4;
+      box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+    }
+    .linkedlogo img{
+      width: 90px;
+      position: relative;
+      bottom: -5px;
+      left: 20px;
+    }
+    .slacklogo{
+      width: 135px;
+      height: 42px;
+      background-color: rgb(58, 58, 57);
+      position: relative;
+      bottom: 3465px;
+      left: 1150px;
+      z-index: 4;
+      box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+    }
+    .slacklogo img{
+      width: 90px;
+      position: relative;
+      bottom: -3px;
+      left: 20px;
+    }
+  
+
+  
+  
+  
+  
+ 
+  
+ 
+  
+  
